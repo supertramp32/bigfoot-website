@@ -3192,6 +3192,14 @@ img.u-pull-left {
     padding-bottom          : var(--vspace-5);
 }
 
+
+.s-intro_new {
+    --text-huge             : 7.6rem;
+    --text-huge-line-height : 1.158;
+    --text-huge-multiplier  : 1;
+    padding-top             : 0;
+    padding-bottom          : 0;
+}
 /* --------------------------------------------------------------------
  * ## intro content
  * -------------------------------------------------------------------- */
@@ -3873,7 +3881,7 @@ img.u-pull-left {
  * ## video block
  * ------------------------------------------------------------------- */
 .video-block {
-    margin-top      : var(--vspace-5);
+    margin-top      :0;
     display         : flex;
     justify-content : center;
     align-items     : center;
