@@ -104,7 +104,7 @@
      */
     --color-1-lighter              : hsla(174, 65%, 60%, 1);
     --color-1-light                : hsla(174, 65%, 50%, 1);
-    --color-1-dark                 : hsla(174, 65%, 35%, 1);
+    --color-1-dark                 : hsla(174, 65%, 50%, 1);
     --color-1-darker               : hsla(174, 65%, 20%, 1);
     --color-2-lighter              : hsla(48, 67%, 99%, 1);
     --color-2-light                : hsla(48, 67%, 89%, 1);
@@ -2762,7 +2762,7 @@ img.u-pull-left {
     font-family    : var(--font-2);
     font-size      : var(--text-sm);
     font-weight    : 600;
-    color          : var(--color-body);
+    color          : var(--color-white);
     text-transform : uppercase;
     letter-spacing : .3em;
     margin-top     : 0;
@@ -3534,10 +3534,12 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    background-color : var(--color-1-dark);
+    background-color : var(--color-gray-8);
     padding-top      : var(--vspace-5);
     padding-bottom   : var(--vspace-5);
 }
+
+
 
 /* --------------------------------------------------------------------
  * ## services list
@@ -3860,8 +3862,9 @@ img.u-pull-left {
 }
 
 .clients {
-    margin-top     : var(--vspace-1_5);
-    padding-bottom : var(--vspace-3);
+    margin-top     : 0;
+    align-content: center;
+    padding-bottom : 0;
 }
 
 .clients__slide img {
@@ -3881,7 +3884,7 @@ img.u-pull-left {
  * ## video block
  * ------------------------------------------------------------------- */
 .video-block {
-    margin-top      :0;
+    margin-top      :8.2rem;
     display         : flex;
     justify-content : center;
     align-items     : center;
